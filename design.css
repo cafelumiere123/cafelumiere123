@@ -1,0 +1,402 @@
+*{
+     font-family: 'Courier New', monospace;	
+}
+
+body{
+	 background-image: url("bg.png");
+	 background-repeat: no-repeat;
+	 background-position: center;
+	 background-attachment: fixed;
+	 background-size: cover;
+	 margin: 0;
+    
+     
+}    
+
+img{
+	 height: 300px;
+	 display: block;
+	 position: center;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 50px;
+     width: 300px;
+}
+
+.navbar {
+     overflow: hidden;
+     position: fixed;
+     top: 0px;
+     width: 100%;
+     padding: 12px;
+     background:transparent;
+	 backdrop-filter:blur(10px);
+	 text-align:center;
+	 margin-left:10px;
+ }
+
+.navbar a {
+     float: left;
+     display: block;
+     text-align:center;
+     padding: 13px 16px;
+     text-decoration: none;
+     font-size: 17px;
+     color: black;
+	
+}
+
+.navbar a:hover {
+     border-bottom: 2px solid #3e2c1e; /*#A67B5B;*/
+	 border-top: 2px solid #3e2c1e;
+	 color: #3e2c1e;
+	 padding:10px;
+}	  
+
+.center{
+	 text-align: center;
+	 
+}
+
+.grid-container {
+     display: grid;
+     grid-template-columns: repeat(2, 1fr); 
+     gap: 20px; 
+     padding: 20px;
+	 flex: 1;
+     margin: 0 20px;
+     text-align: center;
+}
+
+.grid-item {
+     border: 1px solid #3e2c1e;
+     padding: 10px;
+     border-radius: 10px;
+     display: grid;
+}
+
+.grid-item img {
+     width: 100%; 
+     height: auto;
+     border-radius: 10px;
+}
+
+.grid-item p {
+     margin-top: 5px;
+     font-size: 17px;
+}
+
+.footer{
+	 padding:20px 0;
+	 text-align:center;
+}
+
+.button{
+     border-radius:25px;	
+     font-size: 20px;
+     padding: 10px;
+     color: black;
+     text-decoration: none;
+     border: 1px solid brown;
+}
+
+.grid-container2 {
+     display: grid;
+     grid-template-columns: repeat(2, 1fr); 
+     gap: 20px; 
+     padding: 20px;
+	 flex: 1;
+     margin: 0 20px;
+     text-align: center;
+}
+
+.grid-item2 {
+     border: 1px solid #3e2c1e;
+     padding: 10px;
+     border-radius: 10px;
+     display: grid; 
+}
+.grid-item2 img {
+     max-width: 100%;
+     height: auto;
+     border-radius: 50%;
+     display: block;     
+     border:3px solid #3e2c1e;	 
+}
+.grid-item 2p {
+     margin-top: 5px;
+     font-size: 17px;
+}
+
+h1{
+     padding:50px;
+     text-top:50px;	
+}
+
+.form1 {
+     padding:50px;
+     margin: 30px;
+	 width: 500px;
+	 margin-bottom: 10px;
+	 padding-bottom:10px;
+	
+	 
+}
+.form4{
+     padding:50px;
+	 margin-top:0;
+	 width: 500px;
+}
+.but{
+	 display:inline;
+	 text-align: center;
+}
+
+h4{
+	 margin: 10px;
+ }  
+ 
+#acc {
+	 float: right;
+	 display:block;
+     margin-right:30px;
+}
+
+fieldset {
+     border: 1px solid #3e2c1e;
+     padding: 10px;
+     margin: 10px ;
+
+}
+
+legend {
+     font-weight: bold;
+	 font-size:40px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="submit"] {
+     width: 300px;
+     padding: 10px;
+     margin: 5px 0;
+     caret-color:#3e2c1e; 
+	 }
+
+input[type="submit"] {
+     background-color:#b8947b;
+     color: white;
+     border: none;
+     cursor: pointer;
+}
+
+input[type="submit"]:hover {
+     background-color:#af886b;
+}
+
+.order{
+     background-color:#b8947b;
+     color: white;
+     border: none;
+     cursor: pointer;	
+     width: 200px;
+     height: 35px;
+	 font-size:17px;
+	 border-radius:15px;
+	 text-align:center;
+	 display: inline-block;
+}
+
+.order:hover{
+     background-color:#af886b;	
+}
+
+.out {
+     background-color: #b8947b; 
+     color: white;             
+     border: solid 1px;        
+     width: 100px;          
+     height: 40px;            
+     text-decoration: none;   
+     display: flex;            
+     justify-content: center;   
+     align-items: center;      
+     transition: background-color 0.3s ease;
+     border-radius:15px;
+	
+}
+
+.out:hover {
+     background-color: #af886b; 
+}
+
+textarea {
+     resize: none; 
+	 overflow: auto;
+}
+
+#fb{
+     text-decoration: none;   
+     color:black; 
+}
+#fb:hover{
+	 color:brown;
+}
+
+#barangay{
+	 width: 325px;
+	 height:35px;
+     margin: 5px 0;
+	 padding:5px;
+}
+
+#street{
+	 width: 300px;
+	 height:10px;
+	 margin: 5px 0;
+	
+}
+
+.form3{
+	 padding:50px;
+     margin: 30px;
+	 width: 500px;
+	 margin-bottom: 10px;
+	 padding-bottom:10px;
+}
+
+#city{
+	 width: 320px;
+	 height:30px;
+	 margin: 5px 0;
+}
+
+#province{
+	 width: 320px;
+	 height:30px;
+	 margin: 5px 0;
+}
+
+#postalcode{
+	 width: 300px;
+	 height:10px;
+	 margin: 5px 0; 
+}
+
+#order_for{
+	 width: 320px;
+	 height:35px;
+	 margin: 5px 0; 
+}
+
+#delivery_time{
+	 width: 320px;
+	 height:35px;
+	 margin: 5px 0; 
+}
+
+#delivery_date{
+	 width: 320px;
+	 height:35px;
+	 margin: 5px 0; 
+}
+
+#icon{
+     height:150px;
+     width:150px;
+     border-radius:50%;
+     object-fit:cover;
+     object-align:center;
+    
+}
+
+
+#view{
+	 background-color:#b8947b;
+     color: white;
+     border: none;
+     cursor: pointer;	
+     width: 200px;
+     height: 35px;
+	 font-size:17px;
+	 border-radius:15px;
+   
+}
+
+#view:hover{
+     background-color:#af886b;	
+}
+
+#menu{
+	 background-color:#b8947b;
+     color: white;
+     border: none;
+     cursor: pointer;	
+     width: 200px;
+     height: 35px;
+	  font-size:17px;
+	  border-radius:15px;
+}
+
+#menu:hover{
+     background-color:#af886b;	
+}
+
+#del{
+	 background-color:#b8947b;
+     color: white;
+     border: none;
+     cursor: pointer;	
+     width: 100px;
+     height: 25px;
+	 font-size:14px;
+	 border-radius:10px;
+}
+
+#del:hover{
+     background-color:#af886b;	
+}
+
+legend{
+	 text-align: center;
+}
+
+.form5 {
+     padding:20px;
+     margin: 30px;
+	 width: 400px;
+	 margin-bottom: 10px;
+	 padding-bottom:10px;
+}
+
+#remove-profile-button{
+	 background-color:#b8947b;
+	 border: 1px solid #3e2c1e;
+	 color:white;
+	 padding:7px;
+	 
+}
+
+#remove-profile-button:hover{
+     background-color:#af886b;	
+}
+#change-profile-button{
+	 background-color:#b8947b;
+	 border: 1px solid #3e2c1e;
+	 color:white;
+	 color:white;
+	 
+	 padding:7px;
+}
+
+#change-profile-button:hover{
+     background-color:#af886b;	
+}
+
+
+.bel{
+	float:left;
+	margin-left:70px;
+}
+
